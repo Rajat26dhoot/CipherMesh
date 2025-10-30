@@ -1,0 +1,74 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+*.out
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Runtime data
+pids/
+lib-cov/
+cache/
+tmp/
+temp/
+
+# Build output
+dist/
+build/
+out/
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+data/
+
+# TypeScript
+*.tsbuildinfo
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test files
+test-results/
+jest-cache/
+jest-html-reporters-*
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Misc
+*.tgz
+*.bak
+*.orig
